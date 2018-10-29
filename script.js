@@ -1,4 +1,6 @@
 "use strict";
 var profession;
-message=prompt('Какова твоя профессия?', 'Повар');
-alert(message);
+profession=prompt('Какова твоя профессия?', 'Повар');
+if(profession='Повар'){
+	alert('Выберите что-то иное')
+}
