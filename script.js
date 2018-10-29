@@ -1,6 +1,4 @@
 "use strict";
-var message, areYouPidor;
-message=prompt('Ты пидор?', 'Да');
-// alert(areYouPidor);
-message=message+', oof';
+var profession;
+message=prompt('Какова твоя профессия?', 'Повар');
 alert(message);
